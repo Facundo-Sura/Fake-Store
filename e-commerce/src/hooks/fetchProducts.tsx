@@ -16,7 +16,7 @@ const useFetchProducts = () => {
         setLoading(true);
         setError(null);
         try {
-            let url = 'http://localhost:3002/products/';
+            let url = 'https://fakestoreapi.com/products';
 
             if (nameFilter || categoryFilter || genderFilter) {
                 const queryParams = new URLSearchParams({
@@ -44,3 +44,5 @@ const useFetchProducts = () => {
 
     return { products, loading, error, fetchProducts };
 }
+
+export default useFetchProducts;
