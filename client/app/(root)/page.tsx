@@ -8,16 +8,16 @@ export default function Home() {
         <h1 className="text-2xl text-center">carrusel</h1>
       </section>
       <section className="min-h-dvh bg-amber-400">
-        <h1 className="text-2xl text-center">coleccion indumentaria urbano</h1>
+        <h1 className="text-2xl text-center">Productos Mas Vendidos</h1>
       </section>
       <section className="min-h-dvh bg-amber-600">
-        <h1 className="text-2xl text-center">coleccion calzado urbano</h1>
+        <h1 className="text-2xl text-center">slider</h1>
       </section>
       <section className="min-h-dvh bg-amber-700">
-        <h1 className="text-2xl text-center">coleccion indumentaria deportiva</h1>
+        <h1 className="text-2xl text-center">Productos Mejor Valorados</h1>
       </section>
       <section className="min-h-dvh bg-amber-900">
-        <h1 className="text-2xl text-center">coleccion calzado deportivo</h1>
+        <h1 className="text-2xl text-center">Comentarios de los Usuarios</h1>
       </section>
     </div>
   );
